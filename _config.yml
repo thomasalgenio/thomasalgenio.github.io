@@ -5,12 +5,12 @@
 # your info in ONE place.
 # ──────────────────────────────────────────────
 
-title: "Your Name"
-role: "Frontend Developer"
-description: "I build fast, accessible interfaces with clean code."
-email: "you@example.com"
-github_username: "yourusername"
-linkedin_username: "yourusername"
+title: "Thomas Casino Algenio"
+role: "Data Scientist"
+description: "M.S. Computational Analytics - Georgia Tech | B.S. Analytics - Montclair State University"
+email: "thomasalgenio@gmail.com"
+github_username: "https://github.com/thomasalgenio"
+linkedin_username: "linkedin.com/in/thomasalgenio"
 
 # Default language shown on first visit (must match a key in _data/translations.yml)
 default_lang: "en"
