@@ -1,0 +1,85 @@
+# ──────────────────────────────────────────────
+# TRANSLATIONS
+# Add a new top-level language key (e.g. "es") and
+# the language switcher in the nav will pick it up
+# automatically — see _includes/nav.html.
+#
+# Jekyll converts this whole file to JSON at build
+# time (see _layouts/default.html), and assets/js/i18n.js
+# uses it to swap text on the page instantly, with no
+# page reload and no React.
+# ──────────────────────────────────────────────
+
+en:
+  nav_about: "about"
+  nav_skills: "skills"
+  nav_projects: "projects"
+  nav_contact: "contact"
+
+  hero_kicker: "// hello, world"
+  hero_subtitle: "I build fast, accessible interfaces with clean code."
+  hero_cta_work: "view my work"
+  hero_cta_contact: "get in touch"
+
+  about_title: "/* about */"
+  about_body: "Write two or three sentences here about who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
+  about_role_label: "role"
+  about_focus_label: "focus"
+  about_location_label: "location"
+  about_focus_value: "frontend & UI"
+  about_location_value: "your city"
+
+  skills_title: "/* skills */"
+
+  projects_title: "/* projects */"
+  projects_demo: "view-demo"
+  projects_code: "view-code"
+
+  contact_title: "$ contact"
+  contact_intro: "Have a project in mind, or just want to say hi? Fill this in."
+  contact_name: "name >"
+  contact_email: "email >"
+  contact_message: "message >"
+  contact_send: "send_message --now"
+  contact_sending: "sending..."
+  contact_success: "Message sent. I'll get back to you soon."
+  contact_error: "Something went wrong. Try emailing me directly instead."
+
+  footer_built: "Built from scratch with Jekyll, no framework required."
+
+pt:
+  nav_about: "sobre"
+  nav_skills: "habilidades"
+  nav_projects: "projetos"
+  nav_contact: "contato"
+
+  hero_kicker: "// olá, mundo"
+  hero_subtitle: "Eu crio interfaces rápidas e acessíveis com código limpo."
+  hero_cta_work: "ver meus projetos"
+  hero_cta_contact: "fale comigo"
+
+  about_title: "/* sobre */"
+  about_body: "Escreva aqui duas ou três frases sobre quem você é, no que você foca e que tipo de trabalho te interessa. Mantenha o tom natural — esse é o lugar onde sua voz real aparece."
+  about_role_label: "cargo"
+  about_focus_label: "foco"
+  about_location_label: "localização"
+  about_focus_value: "frontend & UI"
+  about_location_value: "sua cidade"
+
+  skills_title: "/* habilidades */"
+
+  projects_title: "/* projetos */"
+  projects_demo: "ver-demo"
+  projects_code: "ver-código"
+
+  contact_title: "$ contato"
+  contact_intro: "Tem um projeto em mente ou só quer dizer oi? Preencha aqui."
+  contact_name: "nome >"
+  contact_email: "email >"
+  contact_message: "mensagem >"
+  contact_send: "enviar_mensagem --agora"
+  contact_sending: "enviando..."
+  contact_success: "Mensagem enviada. Logo retorno o contato."
+  contact_error: "Algo deu errado. Tente me enviar um email diretamente."
+
+  footer_built: "Construído do zero com Jekyll, sem precisar de framework."

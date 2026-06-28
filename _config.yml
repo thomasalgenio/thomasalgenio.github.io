@@ -1,0 +1,26 @@
+# ──────────────────────────────────────────────
+# SITE CONFIG
+# Edit the values below — everything else in the
+# templates reads from here, so you only update
+# your info in ONE place.
+# ──────────────────────────────────────────────
+
+title: "Your Name"
+role: "Frontend Developer"
+description: "I build fast, accessible interfaces with clean code."
+email: "you@example.com"
+github_username: "yourusername"
+linkedin_username: "yourusername"
+
+# Default language shown on first visit (must match a key in _data/translations.yml)
+default_lang: "en"
+
+# Used by GitHub Pages / Jekyll — leave as-is unless you know you need to change it
+baseurl: ""
+url: ""
+
+markdown: kramdown
+permalink: pretty
+
+# We're not using any non-default plugins, so this works on plain GitHub Pages too
+plugins: []

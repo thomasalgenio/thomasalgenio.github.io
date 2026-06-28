@@ -1,0 +1,23 @@
+# ──────────────────────────────────────────────
+# SKILLS
+# Add / remove / rename freely — the Skills section
+# in index.html loops over this automatically.
+# ──────────────────────────────────────────────
+
+- category: "Languages"
+  items:
+    - "JavaScript"
+    - "TypeScript"
+    - "HTML & CSS"
+
+- category: "Frameworks & Libraries"
+  items:
+    - "React"
+    - "Tailwind CSS"
+    - "Node.js"
+
+- category: "Tools"
+  items:
+    - "Git"
+    - "Figma"
+    - "VS Code"

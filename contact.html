@@ -1,0 +1,47 @@
+---
+layout: default
+title: "Contact"
+permalink: /contact/
+description: "Get in touch"
+---
+
+<section class="section contact-section" id="contact" data-aos="fade-up">
+  <div class="terminal">
+    <div class="terminal-bar">
+      <span class="dot dot-red"></span>
+      <span class="dot dot-yellow"></span>
+      <span class="dot dot-green"></span>
+      <span class="terminal-title" data-i18n="contact_title">$ contact</span>
+    </div>
+
+    <div class="terminal-body">
+      <p class="terminal-intro" data-i18n="contact_intro">
+        Have a project in mind, or just want to say hi? Fill this in.
+      </p>
+
+      <form id="contact-form" class="terminal-form" novalidate>
+        <label class="terminal-field">
+          <span class="prompt" data-i18n="contact_name">name &gt;</span>
+          <input type="text" name="name" id="field-name" required autocomplete="name">
+        </label>
+
+        <label class="terminal-field">
+          <span class="prompt" data-i18n="contact_email">email &gt;</span>
+          <input type="email" name="email" id="field-email" required autocomplete="email">
+        </label>
+
+        <label class="terminal-field terminal-field-area">
+          <span class="prompt" data-i18n="contact_message">message &gt;</span>
+          <textarea name="message" id="field-message" rows="5" required></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary terminal-submit">
+          <span class="prompt">$</span>
+          <span data-i18n="contact_send">send_message --now</span>
+        </button>
+
+        <p class="terminal-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>

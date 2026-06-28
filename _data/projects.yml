@@ -1,0 +1,27 @@
+# ──────────────────────────────────────────────
+# PROJECTS
+# Each item becomes one card in the Projects section.
+# image: path under /images/projects/ (drop your own
+# screenshots in there — placeholders are provided).
+# ──────────────────────────────────────────────
+
+- title: "Project One"
+  description: "A short, one-line description of what this project does and the problem it solves."
+  tags: ["React", "Tailwind", "API"]
+  image: "/images/projects/project-1.svg"
+  demo_url: "https://example.com"
+  code_url: "https://github.com/yourusername/project-one"
+
+- title: "Project Two"
+  description: "Another short description — focus on the problem solved, not just the tech list."
+  tags: ["TypeScript", "Node.js"]
+  image: "/images/projects/project-2.svg"
+  demo_url: "https://example.com"
+  code_url: "https://github.com/yourusername/project-two"
+
+- title: "Project Three"
+  description: "A third project description. Three to six is usually the sweet spot for a portfolio."
+  tags: ["JavaScript", "CSS"]
+  image: "/images/projects/project-3.svg"
+  demo_url: "https://example.com"
+  code_url: "https://github.com/yourusername/project-three"
