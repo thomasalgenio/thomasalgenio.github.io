@@ -11,10 +11,10 @@
   --surface: #FFFFFF;
   --ink: #141413;
   --ink-soft: #5B574F;
-  --accent: #D97757;       /* muted forest-teal — primary */
+  --accent: #97ccbf;       /* muted forest-teal — primary */
   --accent-2: #6A9BCC;     /* muted ochre — secondary, used sparingly */
   --line: #E8E6DC;
-  --danger: #B3402C;
+  --danger: #97ccbf;
 
   /* type */
   --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -30,10 +30,10 @@
   --surface: #1E1D1B;
   --ink: #FAF9F5;
   --ink-soft: #B0AEA5;
-  --accent: #D97757;
+  --accent: #97ccbf;
   --accent-2: #6A9BCC;
   --line: #2B2A26;
-  --danger: #E0846A;
+  --danger: #97ccbf;
 }
 
 /* ──────────────────────────────────────────────
