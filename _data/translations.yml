@@ -21,7 +21,7 @@ en:
   hero_cta_work: "view my work"
   hero_cta_contact: "get in touch"
 
-  about_title: "/* about */"
+  about_title: "# experience"
   about_body: "Write two or three sentences here about who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
   about_role_label: "role"
   about_focus_label: "focus"
@@ -29,13 +29,13 @@ en:
   about_focus_value: "frontend & UI"
   about_location_value: "your city"
 
-  skills_title: "/* skills */"
+  skills_title: "# skills"
 
-  projects_title: "/* projects */"
+  projects_title: "# projects"
   projects_demo: "view-demo"
   projects_code: "view-code"
 
-  contact_title: "$ contact"
+  contact_title: "# contact"
   contact_intro: "Have a project in mind, or just want to say hi? Fill this in."
   contact_name: "name >"
   contact_email: "email >"
