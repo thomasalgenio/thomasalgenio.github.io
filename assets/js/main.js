@@ -101,6 +101,9 @@ function initScrollyPhotos() {
   var sections = document.querySelectorAll('.scrolly-content > section[id]');
   if (!photos.length || !sections.length) return;
 
+  // iOS Safari fix — ensure body/html aren't blocking scroll events
+  document.documentElement.style.webkitOverflowScrolling = 'touch';
+
   var observer = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
       if (!entry.isIntersecting) return;
