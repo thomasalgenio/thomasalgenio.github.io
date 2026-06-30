@@ -448,7 +448,7 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
   padding: 0 1.5rem 0 0;
 }
 
-.scrolly-content { display: flex; flex-direction: column; min-width: 640; }
+.scrolly-content { display: flex; flex-direction: column; min-width: 0px; }
 
 .scrolly-content > section,
 .scrolly-content > .hero {
