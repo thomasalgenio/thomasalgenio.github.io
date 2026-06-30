@@ -445,10 +445,10 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
   align-items: start;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 1.5rem 0 0;
+  padding: 0 1.5rem 0 0.10rem;
 }
 
-.scrolly-content { display: flex; flex-direction: column; min-width: 0px; }
+.scrolly-content { display: flex; flex-direction: column; max-width: 640px; }
 
 .scrolly-content > section,
 .scrolly-content > .hero {
