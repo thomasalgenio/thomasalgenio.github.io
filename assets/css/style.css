@@ -441,11 +441,11 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
 .scrolly {
   display: grid;
   grid-template-columns: 220px 1fr;
-  gap: 20rem;
+  gap: 10rem;
   align-items: start;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 1.5rem 0 0.75 rem;
+  padding: 0 1.5rem 0 0.05 rem;
 }
 
 .scrolly-content { display: flex; flex-direction: column; min-width: 640; }
