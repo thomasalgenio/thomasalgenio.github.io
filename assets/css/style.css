@@ -479,10 +479,11 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
 .scrolly-slide img { width: 100%; height: 100%; object-fit: cover; }
 
 @media (max-width: 760px) {
-  .scrolly { grid-template-columns: 1fr; gap: 0; }
+  .scrolly { grid-template-columns: 1fr; gap: 0; padding:0;}
   .scrolly-photos {
     position: sticky;
     top: var(--nav-height);
+    width: 100%;
     aspect-ratio: 16 / 9;
     border-radius: 0;
     border-left: none;
@@ -491,6 +492,23 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
   .scrolly-content > section,
   .scrolly-content > .hero {
     padding: 3rem 1.5rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-wrap {
+    position: sticky;
+    top: 0;
   }
 }
 
