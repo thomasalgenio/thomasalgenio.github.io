@@ -440,7 +440,7 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
    ────────────────────────────────────────────── */
 .scrolly {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 7rem;
   align-items: start;
 /* max-width: 1400px; */
@@ -449,7 +449,7 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
   padding: 0 1.5rem 0 1rem;
 }
 
-.scrolly-content { display: flex; flex-direction: column; max-width: 1200px; }
+.scrolly-content { display: flex; flex-direction: column; max-width: 1500px; }
 
 .scrolly-content > section,
 .scrolly-content > .hero {
