@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
   initMobileNav();
   initScrollSpy();
   initAOS();
+  initScrollyPhotos();
   initContactForm();
 });
 
@@ -92,6 +93,25 @@ function initScrollSpy() {
 function initAOS() {
   if (typeof AOS === 'undefined') return;
   AOS.init({ duration: 600, once: true, offset: 40 });
+}
+
+/* ---------- Scrolly Photos ---------- */
+function initScrollyPhotos() {
+  var photos = document.querySelectorAll('.scrolly-slide');
+  var sections = document.querySelectorAll('.scrolly-content > section[id]');
+  if (!photos.length || !sections.length) return;
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      var id = entry.target.id;
+      photos.forEach(function (photo) {
+        photo.classList.toggle('active', photo.getAttribute('data-section') === id);
+      });
+    });
+  }, { rootMargin: '-40% 0px -50% 0px' });
+
+  sections.forEach(function (section) { observer.observe(section); });
 }
 
 /* ---------- contact form ---------- */
