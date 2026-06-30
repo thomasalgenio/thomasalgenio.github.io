@@ -2,93 +2,109 @@
 layout: default
 ---
 
-<!-- ============ HERO ============ -->
-<section class="hero" id="hero">
-  <p class="kicker" data-i18n="hero_kicker">// hello, world</p>
-  <h1 class="hero-name">
-    {{ site.title }}<span class="cursor" aria-hidden="true"></span>
-  </h1>
-  <p class="hero-role">{{ site.role }}</p>
-  <p class="hero-subtitle" data-i18n="hero_subtitle">I build fast, accessible interfaces with clean code.</p>
+<div class="scrolly">
 
-  <div class="hero-actions">
-    <a href="#projects" class="btn btn-primary" data-i18n="hero_cta_work">view my work</a>
-    <a href="{{ '/contact/' | relative_url }}" class="btn btn-ghost" data-i18n="hero_cta_contact">get in touch</a>
-  </div>
-</section>
-
-<!-- ============ EXPERIENCE ============ -->
-<section class="section" id="experience" data-aos="fade-up">
-  <h2 class="section-title" data-i18n="about_title">/* experience */</h2>
-
-  <div class="about-grid">
-    <p class="about-body" data-i18n="about_body">
-      Henkel
-      United Parcel Service (UPS)
-      Quest Diagnostics
-    </p>
-
-    <dl class="about-facts">
-      <div class="fact">
-        <dt data-i18n="about_role_label">role</dt>
-        <dd>{{ site.role }}</dd>
-      </div>
-      <div class="fact">
-        <dt data-i18n="about_focus_label">focus</dt>
-        <dd data-i18n="about_focus_value">Advanced Analytics &amp; Business Value</dd>
-      </div>
-      <div class="fact">
-        <dt data-i18n="about_location_label">location</dt>
-        <dd data-i18n="about_location_value">NJ / NY Metro Area</dd>
-      </div>
-    </dl>
-  </div>
-</section>
-
-<!-- ============ SKILLS ============ -->
-<section class="section" id="skills" data-aos="fade-up">
-  <h2 class="section-title" data-i18n="skills_title">/* skills */</h2>
-
-  <div class="skills-grid">
-    {% for group in site.data.skills %}
-      <div class="skills-group">
-        <h3 class="skills-category">{{ group.category }}</h3>
-        <ul class="skills-tags">
-          {% for item in group.items %}
-            <li class="tag">{{ item }}</li>
-          {% endfor %}
-        </ul>
-      </div>
+  <!-- Sticky photo rail — crossfades as Hero/Experience/Skills/Projects scroll into view -->
+  <aside class="scrolly-photos" id="scrolly-photos">
+    {% for photo in site.data.photos %}
+      <figure class="scrolly-slide{% if forloop.first %} active{% endif %}" data-section="{{ photo.section }}">
+        <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt }}" loading="lazy">
+      </figure>
     {% endfor %}
-  </div>
-</section>
+  </aside>
 
-<!-- ============ PROJECTS ============ -->
-<section class="section" id="projects" data-aos="fade-up">
-  <h2 class="section-title" data-i18n="projects_title">/* projects */</h2>
+  <div class="scrolly-content">
 
-  <div class="projects-grid">
-    {% for project in site.data.projects %}
-      <article class="project-card" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 80 }}">
-        <div class="project-thumb">
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }} preview" loading="lazy">
-        </div>
-        <div class="project-body">
-          <h3 class="project-title">{{ project.title }}</h3>
-          <p class="project-description">{{ project.description }}</p>
-          <ul class="project-tags">
-            {% for tag in project.tags %}<li class="tag tag-sm">{{ tag }}</li>{% endfor %}
-          </ul>
-          <div class="project-links">
-            <a href="{{ project.demo_url }}" target="_blank" rel="noopener">
-              <span class="prompt">$</span> <span data-i18n="projects_demo">view-demo</span>
-            </a>
-            <a href="{{ project.code_url }}" target="_blank" rel="noopener">
-              <span class="prompt">$</span> <span data-i18n="projects_code">view-code</span>
-            </a>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <p class="kicker" data-i18n="hero_kicker">// hello, world</p>
+      <h1 class="hero-name">
+        {{ site.title }}<span class="cursor" aria-hidden="true"></span>
+      </h1>
+      <p class="hero-role">{{ site.role }}</p>
+      <p class="hero-subtitle" data-i18n="hero_subtitle">I build fast, accessible interfaces with clean code.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero_cta_work">view my work</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-ghost" data-i18n="hero_cta_contact">get in touch</a>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" data-aos="fade-up">
+      <h2 class="section-title" data-i18n="experience_title">/* experience */</h2>
+
+      <div class="experience-grid">
+        <p class="experience-body" data-i18n="experience_body">
+          Write two or three sentences here experience who you are, what you focus on,
+          and what kind of work excites you. Keep it conversational — this is the
+          one place visitors hear your actual voice.
+        </p>
+
+        <dl class="experience-facts">
+          <div class="fact">
+            <dt data-i18n="experience_role_label">role</dt>
+            <dd>{{ site.role }}</dd>
           </div>
-        </div>
-      </article>
-    {% endfor %}
+          <div class="fact">
+            <dt data-i18n="experience_focus_label">focus</dt>
+            <dd data-i18n="experience_focus_value">frontend &amp; UI</dd>
+          </div>
+          <div class="fact">
+            <dt data-i18n="experience_location_label">location</dt>
+            <dd data-i18n="experience_location_value">your city</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills" data-aos="fade-up">
+      <h2 class="section-title" data-i18n="skills_title">/* skills */</h2>
+
+      <div class="skills-grid">
+        {% for group in site.data.skills %}
+          <div class="skills-group">
+            <h3 class="skills-category">{{ group.category }}</h3>
+            <ul class="skills-tags">
+              {% for item in group.items %}
+                <li class="tag">{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" data-aos="fade-up">
+      <h2 class="section-title" data-i18n="projects_title">/* projects */</h2>
+
+      <div class="projects-grid">
+        {% for project in site.data.projects %}
+          <article class="project-card" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 80 }}">
+            <div class="project-thumb">
+              <img src="{{ project.image | relative_url }}" alt="{{ project.title }} preview" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">{{ project.title }}</h3>
+              <p class="project-description">{{ project.description }}</p>
+              <ul class="project-tags">
+                {% for tag in project.tags %}<li class="tag tag-sm">{{ tag }}</li>{% endfor %}
+              </ul>
+              <div class="project-links">
+                <a href="{{ project.demo_url }}" target="_blank" rel="noopener">
+                  <span class="prompt">$</span> <span data-i18n="projects_demo">view-demo</span>
+                </a>
+                <a href="{{ project.code_url }}" target="_blank" rel="noopener">
+                  <span class="prompt">$</span> <span data-i18n="projects_code">view-code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
   </div>
-</section>
+</div>
