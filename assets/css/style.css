@@ -446,10 +446,10 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
 /* max-width: 1400px; */
 /* margin: 0 auto; */
   width: 100%; /* added line */
-  padding: 0 1.5rem 0 0.50rem;
+  padding: 0 1.5rem 0 0.75rem;
 }
 
-.scrolly-content { display: flex; flex-direction: column; max-width: 640px; }
+.scrolly-content { display: flex; flex-direction: column; max-width: 720px; }
 
 .scrolly-content > section,
 .scrolly-content > .hero {
