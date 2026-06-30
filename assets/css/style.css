@@ -460,7 +460,7 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
 
 .scrolly-photos {
   position: sticky;
-  top: calc(var(--nav-height) + 10rem);
+  top: calc(var(--nav-height) + 7rem);
   aspect-ratio: 4 / 5;
   border: 1px solid var(--line);
   border-radius: var(--radius);
