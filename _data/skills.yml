@@ -4,20 +4,19 @@
 # in index.html loops over this automatically.
 # ──────────────────────────────────────────────
 
+- category: "Programming Languages"
+  items:
+    - "Python 🐍"
+    - "SQL 🛢️"
+    - "R ®️"
+
+- category: "Analysis & Visualization Tools"
+  items:
+    - "Tableau 📊"
+    - "Power BI 📈"
+    - "Excel ✅"
+
 - category: "Languages"
   items:
-    - "JavaScript"
-    - "TypeScript"
-    - "HTML & CSS"
-
-- category: "Frameworks & Libraries"
-  items:
-    - "React"
-    - "Tailwind CSS"
-    - "Node.js"
-
-- category: "Tools"
-  items:
-    - "Git"
-    - "Figma"
-    - "VS Code"
+    - "English 🇺🇸"
+    - "Tagalog 🇵🇭"
