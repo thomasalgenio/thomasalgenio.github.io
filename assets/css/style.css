@@ -440,8 +440,8 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
    ────────────────────────────────────────────── */
 .scrolly {
   display: grid;
-  grid-template-columns: minmax(240px, 360px) 1fr;
-  gap: 3rem;
+  grid-template-columns: minmax(200px, 280px) 1fr;
+  gap: 4.5rem;
   align-items: start;
   max-width: 1100px;
   margin: 0 auto;
