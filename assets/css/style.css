@@ -443,12 +443,13 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
   grid-template-columns: 220px 1fr;
   gap: 10rem;
   align-items: start;
-  max-width: 1400px;
-  margin: 0 auto;
+/* max-width: 1400px; */
+/* margin: 0 auto; */
+  width: 100%; /* added line */
   padding: 0 1.5rem 0 0.10rem;
 }
 
-.scrolly-content { display: flex; flex-direction: column; max-width: 640px; }
+.scrolly-content { display: flex; flex-direction: column; min-width: 640px; }
 
 .scrolly-content > section,
 .scrolly-content > .hero {
