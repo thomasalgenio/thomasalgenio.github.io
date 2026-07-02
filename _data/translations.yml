@@ -16,18 +16,18 @@ en:
   nav_projects: "projects"
   nav_contact: "contact"
 
-  hero_kicker: "// hello, world"
+  hero_kicker: "# welcome to my portfolio"
   hero_subtitle: "M.S. Computational Analytics - Georgia Tech | B.S. Analytics - Montclair State University"
   hero_cta_work: "view my work"
   hero_cta_contact: "get in touch"
 
   about_title: "# experience"
-  about_body: "Write two or three sentences here about who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
   about_role_label: "role"
   about_focus_label: "focus"
   about_location_label: "location"
   about_focus_value: "frontend & UI"
   about_location_value: "your city"
+  about_body: "Write two or three sentences here about who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
 
   skills_title: "# skills"
 
