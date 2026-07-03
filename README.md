@@ -1,13 +1,13 @@
 # Portfolio (from scratch, no framework)
 
 A personal portfolio with the same feature set as a typical React portfolio —
-hero, about, skills, projects, contact — but built with plain Jekyll
+hero, experience, skills, projects, contact — but built with plain Jekyll
 (HTML + Liquid), vanilla CSS, and vanilla JS. No build tooling beyond Jekyll
 itself, so it's easy to read top to bottom and make your own.
 
 ## Features
 
-- Hero / About / Skills / Projects / Contact sections
+- Hero / Experience / Skills / Projects / Contact sections
 - Scroll-reveal animations via [AOS](https://michalsnik.github.io/aos/) (vanilla JS, same library the React version could use)
 - Dark / light mode toggle, remembers your choice (`localStorage`)
 - EN / PT language switcher, no page reload — powered by `_data/translations.yml`
@@ -34,7 +34,7 @@ https://jekyllrb.com/docs/installation/.)
 | Skills list                     | `_data/skills.yml`            |
 | Projects list + thumbnails      | `_data/projects.yml`, `images/projects/` |
 | Any text on the page (EN + PT)  | `_data/translations.yml`      |
-| Bio paragraph                   | `_data/translations.yml` → `about_body` |
+| Bio paragraph                   | `_data/translations.yml` → `experience_body` |
 | Colors / fonts                  | `assets/css/style.css` → the `:root` block at the top |
 | Page structure                  | `index.html`, `contact.html`  |
 | Header/footer markup            | `_includes/nav.html`, `_includes/footer.html` |

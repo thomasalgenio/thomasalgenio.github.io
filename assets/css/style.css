@@ -11,7 +11,7 @@
   --surface: #FFFFFF;
   --ink: #141413;
   --ink-soft: #5B574F;
-  --accent: #18d3a4;       /* muted forest-teal — primary */
+  --accent: #97ccbf;       /* muted forest-teal — primary */
   --accent-2: #97ccbf;     /* muted ochre — secondary, used sparingly */
   --line: #E8E6DC;
   --danger: #97ccbf;
@@ -32,9 +32,9 @@
   --ink: #FAF9F5;
   --ink-soft: #B0AEA5;
   --accent: #74f3d3;
-  --accent-2: #97ccbf;
+  --accent-2: #74f3d3;
   --line: #2B2A26;
-  --danger: #97ccbf;
+  --danger: #74f3d3;
 }
 
 /* ──────────────────────────────────────────────
@@ -503,7 +503,7 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
 
   .hero-name { font-size: 2rem; }
   .hero-actions { flex-direction: column; }
-  .about-grid { grid-template-columns: 1fr; }
+  .experience-grid { grid-template-columns: 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
 }
 
@@ -512,7 +512,7 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
    ────────────────────────────────────────────── */
 
 @media (max-width: 760px) {
-  .about-grid { grid-template-columns: 1fr; }
+  .experience-grid { grid-template-columns: 1fr; }
 
   .nav-toggle { display: flex; }
   .nav-menu {

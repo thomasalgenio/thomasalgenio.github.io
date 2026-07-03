@@ -30,6 +30,24 @@ layout: default
       </div>
     </section>
 
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills" data-aos="fade-up">
+      <h2 class="section-title" data-i18n="skills_title">/* skills */</h2>
+
+      <div class="skills-grid">
+        {% for group in site.data.skills %}
+          <div class="skills-group">
+            <h3 class="skills-category">{{ group.category }}</h3>
+            <ul class="skills-tags">
+              {% for item in group.items %}
+                <li class="tag">{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
     <!-- ============ EXPERIENCE ============ -->
     <section class="section" id="experience" data-aos="fade-up">
       <h2 class="section-title" data-i18n="experience_title">/* experience */</h2>
@@ -97,24 +115,6 @@ layout: default
           and what kind of work excites you. Keep it conversational — this is the
           one place visitors hear your actual voice.
         </p>
-      </div>
-    </section>
-
-    <!-- ============ SKILLS ============ -->
-    <section class="section" id="skills" data-aos="fade-up">
-      <h2 class="section-title" data-i18n="skills_title">/* skills */</h2>
-
-      <div class="skills-grid">
-        {% for group in site.data.skills %}
-          <div class="skills-group">
-            <h3 class="skills-category">{{ group.category }}</h3>
-            <ul class="skills-tags">
-              {% for item in group.items %}
-                <li class="tag">{{ item }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        {% endfor %}
       </div>
     </section>
 
