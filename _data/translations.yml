@@ -17,9 +17,11 @@ en:
   nav_contact: "contact"
 
   hero_kicker: "# welcome to my portfolio"
-  hero_subtitle: "M.S. Computational Analytics - Georgia Tech | B.S. Analytics - Montclair State University"
+  hero_subtitle: "NJ|NYC Metropolitan Area | M.S. Computational Analytics - Georgia Tech | B.S. Analytics - Montclair State University"
   hero_cta_work: "view my work"
   hero_cta_contact: "get in touch"
+
+  skills_title: "# skills"
 
   experience_title: "# experience"
 
@@ -30,21 +32,19 @@ en:
   experience_location_value: "Bridgewater, NJ"
   experience_body: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
 
-  experience_role_label: "role(s)"
-  experience_focus_label: "company"
-  experience_location_label: "location"
-  experience_focus_value: "United Parcel Service UPS"
-  experience_location_value: "Mahwah, NJ"
-  experience_body: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
+  experience_role_label_2: "role(s)"
+  experience_focus_label_2: "company"
+  experience_location_label_2: "location"
+  experience_focus_value_2: "United Parcel Service UPS"
+  experience_location_value_2: "Mahwah, NJ"
+  experience_body_2: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
 
-  experience_role_label: "role(s)"
-  experience_focus_label: "company"
-  experience_location_label: "location"
-  experience_focus_value: "Quest Diagnostics"
-  experience_location_value: "Secaucus, NJ"
-  experience_body: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
-
-  skills_title: "# skills"
+  experience_role_label_3: "role(s)"
+  experience_focus_label_3: "company"
+  experience_location_label_3: "location"
+  experience_focus_value_3: "Quest Diagnostics"
+  experience_location_value_3: "Secaucus, NJ"
+  experience_body_3: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
 
   projects_title: "# projects"
   projects_demo: "view-demo"
