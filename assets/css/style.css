@@ -12,7 +12,7 @@
   --ink: #141413;
   --ink-soft: #5B574F;
   --accent: #7ea59b;       /* muted forest-teal — primary */
-  --accent-2: #6A9BCC;     /* muted ochre — secondary, used sparingly */
+  --accent-2: #97ccbf;     /* muted ochre — secondary, used sparingly */
   --line: #E8E6DC;
   --danger: #97ccbf;
 
@@ -32,7 +32,7 @@
   --ink: #FAF9F5;
   --ink-soft: #B0AEA5;
   --accent: #97ccbf;
-  --accent-2: #6A9BCC;
+  --accent-2: #97ccbf;
   --line: #2B2A26;
   --danger: #97ccbf;
 }
