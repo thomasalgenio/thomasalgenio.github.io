@@ -11,7 +11,7 @@
 # ──────────────────────────────────────────────
 
 en:
-  nav_about: "experience"
+  nav_experience: "experience"
   nav_skills: "skills"
   nav_projects: "projects"
   nav_contact: "contact"
@@ -21,28 +21,28 @@ en:
   hero_cta_work: "view my work"
   hero_cta_contact: "get in touch"
 
-  about_title: "# experience"
+  experience_title: "# experience"
 
-  about_role_label: "role(s)"
-  about_focus_label: "company"
-  about_location_label: "location"
-  about_focus_value: "Henkel"
-  about_location_value: "Bridgewater, NJ"
-  about_body: "Write two or three sentences here about who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
+  experience_role_label: "role(s)"
+  experience_focus_label: "company"
+  experience_location_label: "location"
+  experience_focus_value: "Henkel"
+  experience_location_value: "Bridgewater, NJ"
+  experience_body: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
 
-  about_role_label: "role(s)"
-  about_focus_label: "company"
-  about_location_label: "location"
-  about_focus_value: "United Parcel Service UPS"
-  about_location_value: "Mahwah, NJ"
-  about_body: "Write two or three sentences here about who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
+  experience_role_label: "role(s)"
+  experience_focus_label: "company"
+  experience_location_label: "location"
+  experience_focus_value: "United Parcel Service UPS"
+  experience_location_value: "Mahwah, NJ"
+  experience_body: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
 
-  about_role_label: "role(s)"
-  about_focus_label: "company"
-  about_location_label: "location"
-  about_focus_value: "Quest Diagnostics"
-  about_location_value: "Secaucus, NJ"
-  about_body: "Write two or three sentences here about who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
+  experience_role_label: "role(s)"
+  experience_focus_label: "company"
+  experience_location_label: "location"
+  experience_focus_value: "Quest Diagnostics"
+  experience_location_value: "Secaucus, NJ"
+  experience_body: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
 
   skills_title: "# skills"
 
@@ -63,7 +63,7 @@ en:
   footer_built: "Built from scratch with Jekyll, no framework required."
 
 pt:
-  nav_about: "sobre"
+  nav_experience: "sobre"
   nav_skills: "habilidades"
   nav_projects: "projetos"
   nav_contact: "contato"
@@ -73,13 +73,13 @@ pt:
   hero_cta_work: "ver meus projetos"
   hero_cta_contact: "fale comigo"
 
-  about_title: "/* sobre */"
-  about_body: "Escreva aqui duas ou três frases sobre quem você é, no que você foca e que tipo de trabalho te interessa. Mantenha o tom natural — esse é o lugar onde sua voz real aparece."
-  about_role_label: "cargo"
-  about_focus_label: "foco"
-  about_location_label: "localização"
-  about_focus_value: "frontend & UI"
-  about_location_value: "sua cidade"
+  experience_title: "/* sobre */"
+  experience_body: "Escreva aqui duas ou três frases sobre quem você é, no que você foca e que tipo de trabalho te interessa. Mantenha o tom natural — esse é o lugar onde sua voz real aparece."
+  experience_role_label: "cargo"
+  experience_focus_label: "foco"
+  experience_location_label: "localização"
+  experience_focus_value: "frontend & UI"
+  experience_location_value: "sua cidade"
 
   skills_title: "/* habilidades */"
 
