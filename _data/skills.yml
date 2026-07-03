@@ -22,3 +22,21 @@
     - "Tableau 📊"
     - "Power BI 📈"
     - "Excel ✅"
+
+- category: "Database Management"
+  items:
+    - "Snowflake"
+    - "Informatica Cloud"
+    - "Matillion"
+
+- category: "Version Control & Development Practices"
+  items:
+    - "MLOps"
+    - "Git"
+    - "Agile Methodologies"
+    - "Cross-Functional Collaboration"
+
+- category: "Languages"
+  items:
+    - "English 🇺🇸"
+    - "Tagalog 🇵🇭"
