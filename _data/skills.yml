@@ -10,11 +10,31 @@
     - "SQL 🛢️"
     - "R ®️"
 
+- category: "Big Data & Cloud Platforms"
+  items:
+    - "Google Cloud Platform"
+    - "Databricks"
+    - "Gemini"
+    - "Amazon Web Services"
+
 - category: "Analysis & Visualization Tools"
   items:
     - "Tableau 📊"
     - "Power BI 📈"
     - "Excel ✅"
+
+- category: "Database Management"
+  items:
+    - "Snowflake"
+    - "Informatica Cloud"
+    - "Matillion"
+
+- category: "Version Control & Development Practices"
+  items:
+    - "MLOps"
+    - "Git"
+    - "Agile Methodologies"
+    - "Cross-Functional Collaboration"
 
 - category: "Languages"
   items:
