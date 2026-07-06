@@ -13,8 +13,8 @@
 - category: "Big Data & Cloud Platforms"
   items:
     - "Google Cloud Platform"
-    - "Databricks"
-    - "Gemini"
+    - "Databricks 🧱"
+    - "Gemini ♊"
     - "Amazon Web Services"
 
 - category: "Analysis & Visualization Tools"
@@ -25,14 +25,14 @@
 
 - category: "Database Management"
   items:
-    - "Snowflake"
-    - "Informatica Cloud"
-    - "Matillion"
+    - "Snowflake ❄️"
+    - "Informatica Cloud ☁️"
+    - "Matillion 〽️"
 
 - category: "Version Control & Development Practices"
   items:
-    - "MLOps"
-    - "Git"
+    - "MLOps ♾️"
+    - "Git 🐱"
     - "Agile Methodologies"
     - "Cross-Functional Collaboration"
 
