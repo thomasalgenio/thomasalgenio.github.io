@@ -37,8 +37,10 @@ en:
   experience_location_label_2: "location"
   experience_focus_value_2: "United Parcel Service UPS"
   experience_location_value_2: "Mahwah, NJ"
-  experience_body_2: " >
+  experience_body_2: |
+  " >
                         - lSupported Master Data Management & Analytics and Data Governance teams to provide analytic & data science solutions.\n- Developed PoC Deep Learning Negation and Entity Disambiguation model to extract pertinent information on 1TB of unstructured medical text to automatically populate structured databases using BERT & OpenNLP toolkits through PyTorch. 
+                      
                       \n- Performed NLP Text Sentiment analysis on 2GB of unstructured medical text to assess competitor markets for future strategies. 
                       \n- Conducted Time Series Analysis to improve Turnaround Time using Machine Learning methodologies (XGBoost) on 70GB of logistics data resulting in implementing 10 KPIs for overseeing productivity.  
                       \n- Conducted ELT process by data engineering and migrating 10GB of client data using Informatica Cloud for future utilization. 
