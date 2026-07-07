@@ -262,7 +262,9 @@ h1, h2, h3 { margin: 0; font-family: var(--font-mono); font-weight: 700; }
 }
 
 .experience-body { color: var(--ink-soft); margin: 0; white-space: pre-line;}
+
 .experience-body_2 { color: var(--ink-soft); margin: 0; white-space: pre-line;}
+
 .experience-body_3 { color: var(--ink-soft); margin: 0; white-space: pre-line;}
 
 .experience-facts {
