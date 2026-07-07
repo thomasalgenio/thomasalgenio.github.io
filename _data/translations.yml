@@ -37,14 +37,20 @@ en:
   experience_location_label_2: "location"
   experience_focus_value_2: "United Parcel Service UPS"
   experience_location_value_2: "Mahwah, NJ"
-  experience_body_2: "Write two or three sentences here experience who you are, what you focus on, and what kind of work excites you. Keep it conversational — this is the one place visitors hear your actual voice."
+  experience_body_2: "- Supported Master Data Management & Analytics and Data Governance teams to provide analytic & data science solutions.
+                      - Developed PoC Deep Learning Negation and Entity Disambiguation model to extract pertinent information on 1TB of unstructured medical text to automatically populate structured databases using BERT & OpenNLP toolkits through PyTorch. 
+                      - Performed NLP Text Sentiment analysis on 2GB of unstructured medical text to assess competitor markets for future strategies. 
+                      - Conducted Time Series Analysis to improve Turnaround Time using Machine Learning methodologies (XGBoost) on 70GB of logistics data resulting in implementing 10 KPIs for overseeing productivity.  
+                      - Conducted ELT process by data engineering and migrating 10GB of client data using Informatica Cloud for future utilization. 
+                      - Conducted ETL process for 250TB of clinical BIG Data within Azure Cloud as a pre-stage for future application development."
 
   experience_role_label_3: "role(s)"
   experience_focus_label_3: "company"
   experience_location_label_3: "location"
   experience_focus_value_3: "Quest Diagnostics"
   experience_location_value_3: "Secaucus, NJ"
-  experience_body_3: "- Conducted Customer Segmentation on 500GB of demographic medical data using clustering and classification models to market diagnostic tests to potential consumers and drive sales. Communicated insights and next steps to stakeholders."
+  experience_body_3: "- Interned under Master Data Management & Analytics team to provide analytic & data science solution for given project. 
+                      - Given task to market a selection of diagnostic medical tests and target potential consumers based on 500GB of demographic data from team’s Big Data Lake by applying Clustering and Classification Models as a solution to increase sales. Final Presentation included explanation of findings to key stakeholders and communicating insights through Tableau visualizations."
 
   projects_title: "# projects"
   projects_demo: "view-demo"
