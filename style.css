@@ -6,10 +6,15 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   background: #faf9f5;
   color: #141413;
   line-height: 1.6;
+}
+
+h1, h2, h3, p, li, span {
+  font-family: 'Inter', sans-serif;
+  color: #141413;
 }
 
 section {
@@ -36,7 +41,6 @@ h3 {
 /* ---- HERO ---- */
 #hero .role {
   font-size: 1.2rem;
-  color: #d97757;
   margin-top: 0.5rem;
 }
 
@@ -74,16 +78,13 @@ h3 {
 
 .date {
   font-size: 0.85rem;
-  color: #d97757;
 }
 
 .role-title {
   font-size: 0.9rem;
-  color: #5b574f;
   margin-bottom: 0.5rem;
 }
 
 .description {
   font-size: 0.9rem;
-  color: #5b574f;
 }
