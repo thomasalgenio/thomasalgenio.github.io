@@ -97,3 +97,17 @@ h3 {
 .description {
   font-size: 0.9rem;
 }
+
+.bullet-list {
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.bullet-list li {
+  font-size: 0.9rem;
+  color: #141413;
+}
