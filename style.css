@@ -117,3 +117,20 @@ h3 {
   color: #5b574f;
   text-align: center;
 }
+
+#edu-exp {
+  max-width: 1100px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+@media (max-width: 760px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
